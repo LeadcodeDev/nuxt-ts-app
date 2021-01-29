@@ -4,6 +4,7 @@ import modules from './settings/Modules'
 import build from './settings/Build'
 import arch from './settings/Arch'
 import plugins from './settings/Plugins'
+import env from './settings/Env'
 
 export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -18,4 +19,5 @@ export default {
   ...arch,
   ...build,
   ...plugins,
+  ...env,
 }
