@@ -10,7 +10,7 @@
   "prettier.tabWidth": 4,
   "prettier.bracketSpacing": true,
   "prettier.jsxBracketSameLine": true,
-  "prettier.printWidth": 180,
+  "prettier.printWidth": 200,
   "prettier.trailingComma": "none",
   "prettier.useTabs": true
 }
