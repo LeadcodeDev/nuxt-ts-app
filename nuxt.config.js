@@ -5,11 +5,9 @@ import build from './settings/Build'
 import arch from './settings/Arch'
 import plugins from './settings/Plugins'
 import env from './settings/Env'
+import css from './settings/Styles'
 
 export default {
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
-
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
@@ -20,4 +18,5 @@ export default {
   ...build,
   ...plugins,
   ...env,
+  ...css,
 }
