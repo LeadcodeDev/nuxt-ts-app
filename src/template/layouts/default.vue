@@ -1,20 +1,26 @@
 <template>
   <div>
     <Nuxt />
+    <ButtonLanguage />
   </div>
 </template>
 
+<script lang="ts">
+import { defineComponent } from '@vue/composition-api'
+import ButtonLanguageVue from '@/components/ButtonLanguage.vue'
+
+export default defineComponent({
+  setup() {
+    return {}
+  },
+  components: { ButtonLanguage: ButtonLanguageVue },
+})
+</script>
+
 <style>
 html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

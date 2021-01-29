@@ -12,18 +12,16 @@ const i18n = {
   ],
   strategy: 'no_prefix',
   defaultLocale: 'en',
-  langDir: 'locales/',
+  langDir: 'lang/',
   lazy: true,
   seo: true,
   vueI18n: { fallbackLocale: 'en' },
 }
 
 // Modules: https://go.nuxtjs.dev/config-modules
-const Modules = [
+export default [
   // https://go.nuxtjs.dev/axios
   ['@nuxtjs/axios', axios],
 
   ['nuxt-i18n', i18n],
 ]
-
-export default Modules

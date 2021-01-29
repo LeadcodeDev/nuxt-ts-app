@@ -1,5 +1,5 @@
 // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-const BuildModules: Array<string> = [
+export default [
   // https://go.nuxtjs.dev/typescript
   '@nuxt/typescript-build',
 
@@ -9,5 +9,3 @@ const BuildModules: Array<string> = [
   // https://composition-api.nuxtjs.org
   '@nuxtjs/composition-api',
 ]
-
-export default BuildModules

@@ -11,12 +11,13 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  ...head,
-  ...buildModules,
-  ...modules,
+  head,
+  modules,
   ...arch,
-  ...build,
-  ...plugins,
-  ...env,
-  ...css,
+  build,
+  plugins,
+  env,
+  css,
+
+  buildModules,
 }

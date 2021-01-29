@@ -1448,6 +1448,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/i18n@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@types/i18n/-/i18n-0.12.0.tgz#ea4e247c2da05a35002d7535d339c912c4513549"
+  integrity sha512-3OlOD518lF2IQmZndRvoO5ZJzgUowLPIRMH4T8LTjTkgbZwZlKMR52/KLml0dJN/Bt6e9R10NxzjOQnDG2DDgg==
+
 "@types/json-schema@^7.0.4", "@types/json-schema@^7.0.5", "@types/json-schema@^7.0.6":
   version "7.0.7"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.7.tgz#98a993516c859eb0d5c4c8f098317a9ea68db9ad"
@@ -8571,6 +8576,11 @@ vue@^2.6.12:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
+
+vuex-module-decorators@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/vuex-module-decorators/-/vuex-module-decorators-1.0.1.tgz#d34dafb5428a3636f1c26d3d014c15fc9659ccd0"
+  integrity sha512-FLWZsXV5XAtl/bcKUyQFpnSBtpc3wK/7zSdy9oKbyp71mZd4ut5y2zSd219wWW9OG7WUOlVwac4rXFFDVnq7ug==
 
 vuex@^3.6.0:
   version "3.6.2"

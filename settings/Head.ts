@@ -12,7 +12,7 @@ const params = {
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
 }
 
-const Head = {
+export default {
   htmlAttrs: { lang: 'fr-FR' },
   title: params.title,
   meta: [
@@ -37,5 +37,3 @@ const Head = {
   ],
   link: [{ rel: 'icon', type: params.favicon.type, href: params.favicon.href }],
 }
-
-export default Head
