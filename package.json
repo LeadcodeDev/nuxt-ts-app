@@ -14,7 +14,8 @@
     "@nuxtjs/composition-api": "^0.19.0",
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12",
-    "nuxt-i18n": "^6.18.0"
+    "nuxt-i18n": "^6.18.0",
+    "vuex-module-decorators": "^1.0.1"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.12",
