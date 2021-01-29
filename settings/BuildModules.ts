@@ -5,6 +5,9 @@ const BuildModules: Array<string> = [
 
   // https://go.nuxtjs.dev/tailwindcss
   '@nuxtjs/tailwindcss',
+
+  // https://composition-api.nuxtjs.org
+  '@nuxtjs/composition-api',
 ]
 
 export default BuildModules
