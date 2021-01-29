@@ -1,9 +1,9 @@
-import head from './configuration/Head'
-import buildModules from './configuration/BuildModules'
-import modules from './configuration/Modules'
-import build from './configuration/Build'
-import arch from './configuration/Arch'
-import plugins from './configuration/Plugins'
+import head from './settings/Head'
+import buildModules from './settings/BuildModules'
+import modules from './settings/Modules'
+import build from './settings/Build'
+import arch from './settings/Arch'
+import plugins from './settings/Plugins'
 
 export default {
   // Global CSS: https://go.nuxtjs.dev/config-css

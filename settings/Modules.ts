@@ -5,10 +5,25 @@ const axios = {
   progress: false,
 }
 
+const i18n = {
+  locales: [
+    { code: 'en', name: 'English', file: 'en-US.ts' },
+    { code: 'fr', name: 'Français', file: 'fr-FR.ts' },
+  ],
+  strategy: 'no_prefix',
+  defaultLocale: 'en',
+  langDir: 'locales/',
+  lazy: true,
+  seo: true,
+  vueI18n: { fallbackLocale: 'en' },
+}
+
 // Modules: https://go.nuxtjs.dev/config-modules
 const Modules = [
   // https://go.nuxtjs.dev/axios
   ['@nuxtjs/axios', axios],
+
+  ['nuxt-i18n', i18n],
 ]
 
 export default Modules
