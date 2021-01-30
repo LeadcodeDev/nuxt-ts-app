@@ -43,6 +43,12 @@ const auth = {
   resetOnError: true,
 }
 
+const toast = {
+  position: 'bottom-center',
+  duration: 5000,
+  keepOnHover: true,
+}
+
 // Modules: https://go.nuxtjs.dev/config-modules
 export default [
   // https://go.nuxtjs.dev/axios
@@ -53,4 +59,7 @@ export default [
 
   // https://auth.nuxtjs.org/
   ['@nuxtjs/auth-next', auth],
+
+  // https://www.npmjs.com/package/@nuxtjs/toast
+  ['@nuxtjs/toast', toast],
 ]
