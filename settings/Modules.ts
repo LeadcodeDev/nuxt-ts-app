@@ -18,10 +18,39 @@ const i18n = {
   vueI18n: { fallbackLocale: 'en' },
 }
 
+const auth = {
+  strategies: {
+    local: {
+      endpoints: {
+        login: { url: '/authentication/web/login', method: 'post' },
+        logout: { url: '/authentication/web/logout', method: 'post' },
+        user: {
+          url: '/authentication/user/me',
+          method: 'get',
+          propertyName: 'user',
+        },
+      },
+      tokenRequired: false,
+      tokenType: false,
+    },
+  },
+  redirect: {
+    login: '/authentication/login',
+    logout: '/',
+    callback: '/',
+    home: '/',
+  },
+  resetOnError: true,
+}
+
 // Modules: https://go.nuxtjs.dev/config-modules
 export default [
   // https://go.nuxtjs.dev/axios
   ['@nuxtjs/axios', axios],
 
+  // https://i18n.nuxtjs.org/
   ['nuxt-i18n', i18n],
+
+  // https://auth.nuxtjs.org/
+  ['@nuxtjs/auth-next', auth],
 ]
