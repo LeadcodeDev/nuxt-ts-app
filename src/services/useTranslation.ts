@@ -10,8 +10,6 @@ export function useButton() {
     store.$i18n.setLocale(lang)
   }
 
-  console.log(availableLocales)
-
   return {
     availableLocales,
     changeLanguage,

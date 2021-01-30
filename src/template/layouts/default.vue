@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-full min-h-screen overflow-x-hidden">
     <Nuxt />
     <ButtonLanguage />
   </div>
@@ -10,9 +10,6 @@ import { defineComponent } from '@vue/composition-api'
 import ButtonLanguageVue from '@/components/ButtonLanguage.vue'
 
 export default defineComponent({
-  setup() {
-    return {}
-  },
   components: { ButtonLanguage: ButtonLanguageVue },
 })
 </script>
