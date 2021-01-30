@@ -6,11 +6,10 @@
   "prettier.packageManager": "yarn",
   "prettier.semi": false,
   "prettier.singleQuote": true,
-  "prettier.useEditorConfig": false,
   "prettier.tabWidth": 4,
   "prettier.bracketSpacing": true,
   "prettier.jsxBracketSameLine": true,
-  "prettier.printWidth": 200,
+  "prettier.printWidth": 280,
   "prettier.trailingComma": "none",
   "prettier.useTabs": true
 }
