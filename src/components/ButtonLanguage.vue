@@ -18,7 +18,7 @@
 
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
-import { useButton } from '@/services/useLanguage'
+import { useButton } from '@/services/useTranslation'
 
 export default defineComponent({
   name: 'ButtonLanguageVue',
